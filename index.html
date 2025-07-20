@@ -4,125 +4,95 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/blended-proj-121-14/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>Business promotion</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
     <script type="module" crossorigin src="/blended-proj-121-14/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/blended-proj-121-14/assets/styles-DvPDDfy5.css">
+    <link rel="stylesheet" crossorigin href="/blended-proj-121-14/assets/index-DQvyML_S.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="/blended-proj-121-14/assets/sprite-E8vg0sBb.svg#logo"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
+    Header
 
     <main>
-      <!-- Loads the specified .html file -->
-      <section class="vite-promo">
+      <section class="section section-price">
   <div class="container">
-    <div class="vite-promo-thumb">
-      <a
-        class="vite-promo-link"
-        href="https://vitejs.dev/"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Link to Vite official website"
-        title="Vite.js  build tool"
-      >
-        <!-- Path to images as from index.html file -->
-        <img
-          class="pic"
-          src="/blended-proj-121-14/assets/vite-logo-9o_aqrTe.png"
-          alt="Vite logo"
-          width="640"
-          height="640"
-        />
-      </a>
-    </div>
-    <h1 class="main-title">
-      <span class="main-title-gradient">Vite</span>
-      Template by
-      <a
-        class="main-title-link"
-        href="https://github.com/goitacademy/vanilla-app-template"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT
-      </a>
-    </h1>
-  </div>
-</section>
+    <h2 class="section-title title-price">Price Table</h2>
+    <p class="section-subtitle subtitle-price">We offer competitive price</p>
 
-      <article class="badges">
-  <div class="container">
-    <ul class="badges-list">
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-html-inject"
-          target="_blank"
-          rel="noopener noreferrer"
+    <ul class="price-list">
+      <li class="price-card">
+        <h3 class="price-card-title">Free</h3>
+        <p class="price-card-text">Brief price description</p>
+
+        <span class="price-card-price"
+          >0
+          <span class="card-price-part"><span>$</span> Per / month</span></span
         >
-          HTML Inject
-        </a>
+
+        <ul class="price-card-list">
+          <li class="price-card-item">Only 2 Operators</li>
+          <li class="price-card-item">Notifications</li>
+          <li class="price-card-item">Landing Pages</li>
+        </ul>
+
+        <button class="price-card-btn" type="button">Order Now</button>
       </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-full-reload"
-          target="_blank"
-          rel="noopener noreferrer"
+
+      <li class="price-card">
+        <h3 class="price-card-title">Standard</h3>
+        <p class="price-card-text">Brief price description</p>
+
+        <span class="price-card-price"
+          >5
+          <span class="card-price-part"><span>$</span> Per / month</span></span
         >
-          Full Reload
-        </a>
+
+        <ul class="price-card-list">
+          <li class="price-card-item">5+ Operators</li>
+          <li class="price-card-item">Notifications</li>
+          <li class="price-card-item">Landing Pages</li>
+        </ul>
+
+        <button class="price-card-btn" type="button">Order Now</button>
       </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/postcss-sort-media-queries"
-          target="_blank"
-          rel="noopener noreferrer"
+
+      <li class="price-card">
+        <h3 class="price-card-title">Premium</h3>
+        <p class="price-card-text">Brief price description</p>
+
+        <span class="price-card-price"
+          >10
+          <span class="card-price-part"><span>$</span> Per / month</span></span
         >
-          Sort Media Queries
-        </a>
+
+        <ul class="price-card-list">
+          <li class="price-card-item">10+ Operators</li>
+          <li class="price-card-item">Notifications</li>
+          <li class="price-card-item">Landing Pages</li>
+        </ul>
+
+        <button class="price-card-btn" type="button">Order Now</button>
       </li>
     </ul>
   </div>
-</article>
+</section>
 
     </main>
 
-    <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
-  </div>
-</footer>
-
+    Footer
 
   </body>
 </html>
